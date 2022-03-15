@@ -26,14 +26,15 @@
 <hr>
 <p>
   <h3>◻ Dificuldades</h3>
-  ...
+  O único problema foi saber por quanto tempo eu deixaria o Loop rodando, pois mesmo que que eu fizesse uma varredura para cada palavra   e fizesse um <b>Loop For</b> nesse <b>range()</b>, ele continuaria rodando mesmo após o tempo limite de 1 minuto, pois o limite é de   aproximadamente 300 palavras por minuto, assim o Loop ficaria rodando por mais um tempo até finalizar. O ideal era deixar o Loop       rodando durante 1 minuto, e nesse intervalo o computador poderia continuar fazendo quantas palavras ele conseguisse. Eu até pensei em   fazer uma <b>Thread</b> que durasse 1 minuto e quando essa Thread acabasse eu colocaria um Break no While True, e aí o programa já     poderia coletar os dados da estatística final.
 </p>
 <hr>
 <p>
   <h3>Comparação → Humano 👨‍💻 Vs Computador 🖥</h3>
-  ...
+  Vale ressaltar que a velocidade dos dois gifs são menores, mas obviamente não tem nem como comparar o desempenho contra o computador.
   <p>
-    <img src="">
+    <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/Automation/Sites/0001%2010%20Fast%20Fingers/%26%20-%20Image/human%20score.gif" align="left" width=150>
+    <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/Automation/Sites/0001%2010%20Fast%20Fingers/%26%20-%20Image/human%20typing.gif" align="right" width=800>
   </p>
 </p>
 </div>
