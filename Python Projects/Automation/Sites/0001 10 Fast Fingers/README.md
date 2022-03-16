@@ -33,8 +33,8 @@
   <h3>Comparação → Humano 👨‍💻 Vs Computador 🖥</h3>
   Vale ressaltar que a velocidade dos dois gifs são menores, mas obviamente não tem nem como comparar o desempenho contra o computador.
   <p>
-    <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/Automation/Sites/0001%2010%20Fast%20Fingers/%26%20-%20Image/human%20score.gif" align="left" width=150>
-    <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/Automation/Sites/0001%2010%20Fast%20Fingers/%26%20-%20Image/human%20typing.gif" align="right" width=800>
+    <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/Automation/Sites/0001%2010%20Fast%20Fingers/%26%20-%20Image/human%20score.gif" align="left" width=180>
+    <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/Automation/Sites/0001%2010%20Fast%20Fingers/%26%20-%20Image/human%20typing.gif" align="right" width=790>
   </p>
 </p>
 </div>
