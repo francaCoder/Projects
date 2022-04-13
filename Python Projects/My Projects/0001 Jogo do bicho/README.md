@@ -77,13 +77,16 @@
 
 ### Tratamento de Erros e Lógica
 
-<img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/janela2.gif" align="right" width="420px">
+<img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/error_bet.gif" align="right" width="420px">
 
 <div>
     <ul>
       <li>Campo de Aposta</li>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      <p align="justify">
+        Nas regras é necessário fazer a multiplicação de acordo com o valor inserido. Na programação só é possível fazer a multiplicação por valores que separam as casas decimais por ponto, então foi feito um <b>Loop For</b> que, para cada caracter no campo de aposta, ele verifica se o caracter é uma vírgula e faz a troca para ponto, afinal sempre que colocamos um valor "quebrado" aqui no Brasil separamos por vírgula.
+      </p>
+      <p align="justify">
+        Após isso é exibido um <b>PopUp</b> para cada opção inválida, são elas: Começar ou Terminar com . ou , / 2 ou mais . ou , / Letras ou símobolos / Valor menor que 1 centavo.
       </p>
     </ul>
 </div>
