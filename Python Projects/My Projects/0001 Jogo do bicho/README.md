@@ -4,7 +4,7 @@
 </p>
 <hr>
 
-<img src="">
+<img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/Captura%20de%20Tela%20(155).png" width="1000px" align="center">
 
 # Jogo do Bicho
 <p>
