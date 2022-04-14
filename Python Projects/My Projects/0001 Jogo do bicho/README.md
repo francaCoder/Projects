@@ -70,10 +70,9 @@
   <p align="justify">
     Após fazer essas duas etapas e confirmar o grupo escolhido, o próprio botão e o campo de modo de jogo são desabilitados, e outros dois botões são habilitados, o <b>"Cancelar"</b> serve caso o usuário queira cancelar e escolher outro modo de aposta, e o <b>"Enviar Escolha"</b> irá salvar os dados e levar o usuário para a "terceira" e última janela do programa. 
   </p>
-  
+  <p>Ao clicar no botão <b>"Voltar"</b>, a janela 2 fecha e ele retorna para janela 1.</p>
 </div>
 
-<br>
 <hr>
 
 ### Tratamento de Erros e Lógica
