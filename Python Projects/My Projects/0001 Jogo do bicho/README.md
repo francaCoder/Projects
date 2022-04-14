@@ -117,10 +117,24 @@
 
 ### Janela 3 → Resultado do Jogo
 
-<p align="justify">
+<div>
+  <p align="justify">
   Obviamente, para cada opção de jogo são necessários diferentes campos, botões e lógicas. A ideia inicial era criar todos os elementos necessários de todas as 8 opções de jogo já na segunda janela e deixar todos com o parâmetro <b>"visible="False"</b>, e após o usuário clicar no botão de <b>"Confirmar"</b>, apenas os elementos essenciais para aquele modo seriam exibidos.
-</p>
-<p align="justify">
+  </p>
+  <p align="justify">
   Essa ideia é muito boa, afinal economizaria diversas interfaces e linhas de código. No entanto, isso infelizmente não foi possível por conta de um erro na própria biblioteca. Imagine uma linha com quaisquer 3 elementos, um ao lado do outro, todos habilitados e visíveis, porém existe outro botão que, ao ser pressionado, a função dele é esconder/exibir esses três elementos. Para o erro ficar mais claro, no momento de esconder funciona perfeitamente, mas na hora de exibir, esses mesmos 3 elementos que estavam alinhados lado à lado, voltam um embaixo do outro. Por esse motivo que eu fui impossibilitado de criar todos os elementos específicos para cada modo de jogo na segunda janela após o usuário clicar no botão de <b>"Confirmar"</b>, e tive que criar mais <b>8 janelas</b>, que são específicas com o modo de jogo que o usuário escolheu, muito parecidas e ambas servem como a 3º janela no programa.
-</p>
+  </p>
+  
+  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/error_library.gif" height="200px" align="left">
+  
+  <p align="right">
+    <br><br>
+    <ol>
+      <li>Todos elementos visíveis e alinhados</li>
+      <li>Todos elementos escondidos</li>
+      <li>Todos elementos visíveis e um embaixo do outro</li>
+    </ol>
+  </p>
+</div>
+
 
