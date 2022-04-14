@@ -115,7 +115,7 @@
 </div>
 <hr>
 
-### Janela 3 → Resultado do Jogo
+### Falha na biblioteca
 
 <div>
   <p align="justify">
