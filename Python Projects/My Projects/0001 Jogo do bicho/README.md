@@ -137,6 +137,48 @@
   </p>
 </div>
 
+<br><hr>
+
 ### Janela 3 → Resultado do jogo
+
+<p>
+  <h6>Informações Repetidas</h6>
+  <p align="justify">
+    Todas as janelas tem blocos separados por Framese e salvam o modo e o valor apostado. O usuário pode clicar no botão de <b>"voltar"</b> e retornar para a 2º janela a qualquer momento (antes de sortear as milhares) e fazer novas escolhas. Os campos com grupos ou números são do tipo <b>"Combo"</b>, que facilitam muito e já mostram as opções válidas para o usuário quando ele aperta na setinha lateral. O botão de <b>"Cancelar"</b> só é habilitado depois que o usuário aperta no botão de <b>"Confirmar"</b> da mesma linha, e o de <b>"Sortear Milhares"</b> só é habilitado depois que o usuário apertou o último botão de <b>"confirmar"</b> no Frame de escolha. As Janelas que tem o Frame de <b>Premiação</b>, dão a opção do usuário fazer dois tipos de apostas através de <b>Radio Buttons</b> que obviamente mudam a lógica do campo de sortear as milhares para verificar se o usuário ganhou ou não, e seus respectivos botões não tem funcionalidades, apenas informam a possível recompensa. E os que não tem esse Frame, é porque o modo de aposta já exige que seja apostado em todas as milhares. As 6 milhares começam com asteríscos representando a sequência numérica, e o verdadeiro resultado é mostrado depois que o botão é apertado. E por fim, o botão de jogar novamente é habilitado e sua função é nos conduzir novamente para a primeira janela do programa.
+  </p>
+</p>
+  
+<hr>
+
+<div>
+  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/janela2.gif" align="left" height="350px">
+  
+  <p align="justify">
+    <p><h6>Modo: Aposta no Grupo</h6></p>
+    <p align="justify">
+      O grupo inicialmente começa no avestruz e podemos escolher qualquer um dos 25 grupos disponíveis. Somos obrigados a confirmar nossa escolha para sortear as milhares, mas também podemos cancelar e escolher outro grupo. A premiação vem originalmente marcada na primeira opção, que nos dá a opção de mudar e mostra a possível remuneração de cada uma.
+    </p>
+    <p align="justify">
+      Para cada tipo de aposta o <b>Output</b> de sortear milhares exige uma lódgica diferente, para esse, ele tem que verificar em todas as milhares se há alguma dezena no grupo escolhido nos últimos 2 números, conforme é dito nas regras.
+    </p>
+    <p align="justify">
+      <h6>Resultados</h6>
+        → Apostou na 1º milhar e Acertou na 1º milhar:
+        <p align="justify" font-size="3px">O Programa pinta a 1º milhar, mostra qual das 4 dezenas foi a que você acertou e mostra seu prêmio.</p>
+        → Apostou na 1º milhar e Acertou em outra milhar:
+        <p align="justify">O Programa somente pinta a e informa qual foi a milhar que você teria acertado se tivesse apostado em todas.</p>
+         → Apostou nas 6 milhares e Acertou na 1º milhar:
+        <p align="justify">O Programa pinta a primeira milhar e exibe uma mensagem dinâmica, afinal nesse caso era melhor que você tivesse apostado só na primeira, mas obviamente não teria como descobrir e você acabou ganhando o prêmio da segunda opção e não o da primeira.</p>
+        → Apostou nas 6 milhares e Acertou entre a 2º e a 6º milhar:
+        <p align="justify">O Programa mostra a dezena que você acertou e seu prêmio e pinta a milhar acertada.</p>
+        → Apostou na 1º e errou:
+        <p align="justify">Se não tiver acertado em nenhuma outra milhar, ele simplesmente exibe uma mensagem dizendo que não acertou em nenhuma milhar</p>
+        → Apostou nas 6 milhares e errou:
+        <p align="justify">Mostra uma mensagem que você errou em todas, não ganhou nenhum prêmio e todas as milhares são pintadas de vermelho.</p>
+    </p>
+  </p>
+</div>
+
+<hr>
 
 
