@@ -137,4 +137,6 @@
   </p>
 </div>
 
+### Janela 3 → Resultado do jogo
+
 
