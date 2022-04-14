@@ -117,7 +117,10 @@
 
 ### Janela 3 → Resultado do Jogo
 
-<p>
-  A ideia inicial era deixar a terceira janela somente com os elementos necessários para o resultado das milhares e do jogo, só que isso não foi possível
+<p align="justify">
+  Obviamente, para cada opção de jogo são necessários diferentes campos, botões e lógicas. A ideia inicial era criar todos os elementos necessários de todas as 8 opções de jogo já na segunda janela e deixar todos com o parâmetro <b>"visible="False"</b>, e após o usuário clicar no botão de <b>"Confirmar"</b>, apenas os elementos essenciais para aquele modo seriam exibidos.
+</p>
+<p align="justify">
+  Essa ideia é muito boa, afinal economizaria diversas interfaces e linhas de código. No entanto, isso infelizmente não foi possível por conta de um erro na própria biblioteca. Imagine uma linha com quaisquer 3 elementos, um ao lado do outro, todos habilitados e visíveis, porém existe outro botão que, ao ser pressionado, a função dele é esconder/exibir esses três elementos. Para o erro ficar mais claro, no momento de esconder funciona perfeitamente, mas na hora de exibir, esses mesmos 3 elementos que estavam alinhados lado à lado, voltam um embaixo do outro. Por esse motivo que eu fui impossibilitado de criar todos os elementos específicos para cada modo de jogo na segunda janela após o usuário clicar no botão de <b>"Confirmar"</b>, e tive que criar mais <b>8 janelas</b>, que são específicas com o modo de jogo que o usuário escolheu, muito parecidas e ambas servem como a 3º janela no programa.
 </p>
 
