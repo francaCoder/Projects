@@ -113,3 +113,10 @@
     </ul>
 </div>
 <hr>
+
+### Janela 3 → Resultado do Jogo
+
+<p>
+  A ideia inicial era deixar a terceira janela somente com os elementos necessários para o resultado das milhares e do jogo, só que isso não foi possível
+</p>
+
