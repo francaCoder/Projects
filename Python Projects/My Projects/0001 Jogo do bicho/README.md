@@ -95,14 +95,11 @@
 <br>
 
 <div>
-  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/bet_error.gif" align="right" width="420px">
+  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/error_game_mode.gif" align="right" width="420px">
     <ul>
       <li>Modo de Jogo</li>
       <p align="justify">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
-      <p align="justify">
-        Após isso é exibido um <b>PopUp</b> notificando caso o grupos escolhido pelo o usuário não exista.
+        A cada vez que o usuário aperta no botão de <b>"Confirmar"</b>, o programa verifica se aquela opção (com <b>.strip() e .upper()</b>) existe dentro das opções válidas. Caso exista, a opção por enquanto será temporariamente salva e o campo e o próprio botão serão desativados. Se não existir será exibido um <b>"PopUp"</b> notificando e orientando o usuário a escolher outro grupo adequado.
       </p>
     </ul>
   <br>
