@@ -74,12 +74,12 @@
 </div>
 
 <br>
+<hr>
 
 ### Tratamento de Erros e Lógica
 
-<img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/error_bet.gif" align="right" width="420px">
-
 <div>
+  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/bet_error.gif" align="right" width="420px">
     <ul>
       <li>Campo de Aposta</li>
       <p align="justify">
@@ -89,4 +89,21 @@
         Após isso é exibido um <b>PopUp</b> para cada opção inválida, são elas: Começar ou Terminar com . ou , / 2 ou mais . ou , / Letras ou símobolos / Valor menor que 1 centavo.
       </p>
     </ul>
+</div>
+
+<br>
+<br>
+
+<div>
+  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/bet_error.gif" align="right" width="420px">
+    <ul>
+      <li>Modo de Jogo</li>
+      <p align="justify">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+      <p align="justify">
+        Após isso é exibido um <b>PopUp</b> notificando caso o grupos escolhido pelo o usuário não exista.
+      </p>
+    </ul>
+  <br>
 </div>
