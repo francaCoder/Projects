@@ -104,3 +104,13 @@
     </ul>
   <br>
 </div>
+
+<div>
+    <ul>
+      <li>Enviar Escolha</li>
+      <p align="justify">
+        Ele tem basicamente as mesmas virificações que o botão de <b>"Conhecer as Regras"</b>, afinal, não necessariamente o usuário vai usar aquele botão, talvez ele já conheça as regras, então, ao clicar em <b>"Enviar Escolha"</b> tem que ser verificado também as condições do campo de valor de aposta. Não é necessário verificar se a opção de jogo é válida nesse botão, porque isso já é apurado no botão se confirmar, e o botão de <b>"Enviar Escolha"</b> só é ativado quando o botão <b>"Confirmar"</b> está desabilitado.
+      </p>
+    </ul>
+</div>
+<hr>
