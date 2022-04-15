@@ -167,3 +167,18 @@
   <p>7. Dependendo do resultado, as milhares são pintadas de verde ou de vermelho.</p>
 </div>
 <hr>
+
+### Dificuldades
+...
+
+### O que falta ser feito
+...
+
+### Experiência do projeto
+...
+
+### Considerações
+...
+
+### Autor
+...
