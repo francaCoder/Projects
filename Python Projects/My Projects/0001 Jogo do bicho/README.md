@@ -156,7 +156,7 @@
 
 <div>
   <h6>Modo: Terno de Grupo</h6>
-  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/janela2.gif" align="left" height="350px">
+  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/terno_de_grupo.gif" align="left" height="500px">
   <p>→ Lógica dos Elementos</p>
   <p>1. Grupos são considerados válidos quando, com <b>.strip() e .upper()</b>, coincidem com algum grupo do array oficial.</p>
   <p>2. A cada botão de confirmar pressionado, o <b>"Cancelar"</b> da mesma linha e o campo de animais da próxima linha são habilitados.</p>
@@ -164,6 +164,6 @@
   <p>4. O botão de <b>Sortear Milhares</b> só é habilitado depois que o usuário clicou no último botão de <b>"Confirmar"</b>, assim temos a certeza de que todos os campos estão válidos e preenchidos.</p>
   <p>5. Para cada milhar, é verificado se nos últimos 2 números existe uma dezena de algum dos 3 grupos escolhidos.</p>
   <p>6. Mensagens personalizadas caso você acerte os 3 grupos (igual o exemplo do gif), quando acerta 2 grupos ele te diz qual faltou acertar e quando acerta apenas 1 ele mostra qual você acertou.</p>
-  
-  
+  <p>7. Dependendo do resultado, as milhares são pintadas de verde ou de vermelho.</p>
 </div>
+<hr>
