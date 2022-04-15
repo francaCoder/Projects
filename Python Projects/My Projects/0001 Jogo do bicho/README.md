@@ -17,34 +17,22 @@
 
 <hr>
 
-# Regras 
+# Regras do Jogo
+
+<h6>8 Modos de aposta</h6>
+<p>Existem vários outros modos, que só não foram inseridos por falta de popularidade e de informações sobre cada um, mas os principais estão no programa.</p>
+    
+<h6>25 Grupos de animais</h6>
 <p>
-  <ul>
-    <li>
-      8 Modos de aposta
-      <p>
-        Existem vários outros, que só não foram inseridos por falta de popularidade e de informações sobre cada um, mas os principais estão no programa.
-      </p>
-    </li>
-    <li>
-      25 Grupos de animais
-      <p>
-        Grupos que vão do 'Avestruz' até a 'Vaca'. Cada grupo tem 4 dezenas que começam na 01 e vão até a 00 (substituindo o número 100). É necessário conhecer cada um e suas respectivas dezenas para a maioria das apostas.
-      </p>
-    </li>
-    <li>
-      Prêmiação
-      <p>
-        Depende exclusivamente do modo, valor que você apostou e do resultado do jogo.
-      </p>
-    </li>
-    <li>
-      Resultado do Jogo
-      <p>
-        É dado pelo sorteio das milhares que é feito na última janela. Os números das milhares são uma sequência de 4 números gerados aleatoriamente, e de acordo com sua aposta, o programa irá te mostrar se você ganhou ou perdeu.
-      </p>
-    </li>
-  </ul>
+  Grupos que vão do 'Avestruz' até a 'Vaca'. Cada grupo tem 4 dezenas que começam na 01 e vão até a 00 (substituindo o número 100). É necessário conhecer cada um e suas respectivas dezenas para a maioria das apostas.
+</p>
+    
+<h6>Prêmiação</h6>
+<p>Depende exclusivamente do modo, valor apostado e do resultado do jogo.</p>
+    
+<h6>Resultado do Jogo</h6>
+<p>
+  É dado pelo sorteio das milhares que é feito na última janela. Os números das milhares é uma sequência numérica de 4 digitos gerados aleatoriamente, e de acordo com sua aposta, o programa irá te mostrar se você ganhou ou perdeu.
 </p>
 
 <hr>
@@ -56,7 +44,7 @@
   <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/janela2.gif" align="right" width="420px">
  
   <p align="justify">
-    Nessa janela é decidido o valor e o modo de aposta. Caso o usuário não conheça o jogo, ele pode apertar no botão de <b>"Conhecer as Regras"</b>, que após isso, será exibido no <b>Output</b> as regras do modo de aposta que estiver no campo acima.
+    Nessa janela é decidido o valor e o modo de aposta. Caso o usuário ainda não conheça o jogo, ele pode apertar no botão de <b>"Conhecer as Regras"</b>, que após isso, será exibido no <b>Output</b> as regras do modo de aposta que estiver no campo acima.
   </p>
   <p align="justify">
     Para que o botão funcione e exiba as regras, as exigências são:
@@ -109,7 +97,7 @@
     <ul>
       <li>Enviar Escolha</li>
       <p align="justify">
-        Ele tem basicamente as mesmas virificações que o botão de <b>"Conhecer as Regras"</b>, afinal, não necessariamente o usuário vai usar aquele botão, talvez ele já conheça as regras, então, ao clicar em <b>"Enviar Escolha"</b> tem que ser verificado também as condições do campo de valor de aposta. Não é necessário verificar se a opção de jogo é válida nesse botão, porque isso já é apurado no botão se confirmar, e o botão de <b>"Enviar Escolha"</b> só é ativado quando o botão <b>"Confirmar"</b> está desabilitado.
+        Ele tem basicamente as mesmas verificações que o botão de <b>"Conhecer as Regras"</b>, afinal, não necessariamente o usuário vai usar aquele botão, talvez ele já conheça as regras, então, ao clicar em <b>"Enviar Escolha"</b> tem que ser verificado também as condições do campo de valor de aposta. Não é necessário verificar se a opção de jogo é válida nesse botão, porque isso já é apurado no botão de confirmar, lembrando que botão de <b>"Enviar Escolha"</b> só é ativado quando o botão <b>"Confirmar"</b> está desabilitado.
       </p>
     </ul>
 </div>
@@ -119,10 +107,10 @@
 
 <div>
   <p align="justify">
-  Obviamente, para cada opção de jogo são necessários diferentes campos, botões e lógicas. A ideia inicial era criar todos os elementos necessários de todas as 8 opções de jogo já na segunda janela e deixar todos com o parâmetro <b>"visible="False"</b>, e após o usuário clicar no botão de <b>"Confirmar"</b>, apenas os elementos essenciais para aquele modo seriam exibidos.
+  Obviamente, para cada opção de jogo são necessários diferentes campos, botões e lógicas. A ideia inicial era criar todos os elementos fundamentais de todas as 8 opções de jogo já na segunda janela e deixar todos com o parâmetro <b>"visible="False"</b>, e após o usuário clicar no botão de <b>"Confirmar"</b>, apenas os elementos essenciais para aquele modo seriam exibidos.
   </p>
   <p align="justify">
-  Essa ideia é muito boa, afinal economizaria diversas interfaces e linhas de código. No entanto, isso infelizmente não foi possível por conta de um erro na própria biblioteca. Imagine uma linha com quaisquer 3 elementos, um ao lado do outro, todos habilitados e visíveis, porém existe outro botão que, ao ser pressionado, a função dele é esconder/exibir esses três elementos. Para o erro ficar mais claro, no momento de esconder funciona perfeitamente, mas na hora de exibir, esses mesmos 3 elementos que estavam alinhados lado à lado, voltam um embaixo do outro. Por esse motivo que eu fui impossibilitado de criar todos os elementos específicos para cada modo de jogo na segunda janela após o usuário clicar no botão de <b>"Confirmar"</b>, e tive que criar mais <b>8 janelas</b>, que são específicas com o modo de jogo que o usuário escolheu, muito parecidas e ambas servem como a 3º janela no programa.
+    Essa ideia é muito boa, afinal economizaria diversas interfaces e linhas de código. No entanto, isso infelizmente não foi possível por conta de um erro na própria biblioteca. Imagine uma linha com quaisquer 3 elementos, um ao lado do outro, todos habilitados e visíveis, porém existe outro botão que, ao ser pressionado, a função dele é esconder/exibir esses três elementos. Para o erro ficar mais claro, no momento de esconder funciona perfeitamente, mas na hora de exibir, esses mesmos 3 elementos que estavam alinhados lado à lado voltam um embaixo do outro. Por esse motivo que eu fui impossibilitado de criar todos os elementos específicos para cada modo de jogo na segunda janela, e tive que criar mais <b>8 janelas</b>, que são específicas com o modo de jogo que o usuário escolheu, muito parecidas e ambas servem como a 3º janela no programa.
   </p>
   
   <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/error_library.gif" height="200px" align="left">
@@ -144,7 +132,7 @@
 <p>
   <h6>Informações Repetidas</h6>
   <p align="justify">
-    Todas as janelas tem blocos separados por Frames e e salvam o modo e o valor apostado. O usuário pode clicar no botão de <b>"voltar"</b> e retornar para a 2º janela a qualquer momento (antes de sortear as milhares) e fazer novas escolhas. Os campos com grupos ou números são do tipo <b>"Combo"</b>, que facilitam muito e já mostram as opções válidas para o usuário quando ele aperta na setinha lateral. O botão de <b>"Cancelar"</b> só é habilitado depois que o usuário aperta no botão de <b>"Confirmar"</b> da mesma linha, e o de <b>"Sortear Milhares"</b> só é habilitado depois que o usuário apertou o último botão de <b>"confirmar"</b> no Frame de escolha. As Janelas que tem o Frame de <b>Premiação</b>, dão a opção do usuário fazer dois tipos de apostas através de <b>Radio Buttons</b> que obviamente mudam a lógica do campo de sortear as milhares para verificar se o usuário ganhou ou não, e seus respectivos botões não tem funcionalidades, apenas informam a possível recompensa. E os que não tem esse Frame, é porque o modo de aposta já exige que seja apostado em todas as milhares. As 6 milhares começam com asteríscos representando a sequência numérica, e o verdadeiro resultado é mostrado depois que o botão é apertado. E por fim, o botão de jogar novamente é habilitado e sua função é nos conduzir novamente para a primeira janela do programa.
+    Todas as janelas tem blocos separados por Frames e e salvam o modo e o valor apostado. O usuário pode clicar no botão de <b>"voltar"</b> e retornar para a 2º janela a qualquer momento (antes de sortear as milhares) e fazer novas escolhas. Os campos com grupos ou números são do tipo <b>"Combo"</b>, que facilitam muito e já mostram as opções válidas para o usuário quando ele aperta na setinha lateral. O botão de <b>"Cancelar"</b> só é habilitado depois que o usuário aperta no botão de <b>"Confirmar"</b> da mesma linha, e o de <b>"Sortear Milhares"</b> só é habilitado depois que o usuário apertou o último botão de <b>"confirmar"</b> no Frame de escolha. As Janelas que tem o Frame de <b>Premiação</b>, dão a opção do usuário fazer dois tipos de apostas através de <b>Radio Buttons</b> que obviamente mudam a lógica do campo de sortear as milhares para verificar se o usuário ganhou ou não, e seus respectivos botões não tem funcionalidades, apenas informam a possível recompensa. E os que não tem esse Frame, é porque o modo de aposta já exige que seja apostado em todas as milhares. As 6 milhares começam com 4 asteríscos representando a sequência numérica, e o verdadeiro resultado é mostrado depois que o botão é apertado. E por fim, o botão de jogar novamente é habilitado e sua função é nos conduzir novamente para a primeira janela do programa.
   </p>
 </p>
   
@@ -161,7 +149,7 @@
   <p>1. Grupos são considerados válidos quando, com <b>.strip() e .upper()</b>, coincidem com algum grupo do array oficial.</p>
   <p>2. A cada botão de confirmar pressionado, o <b>"Cancelar"</b> da mesma linha e o campo de animais da próxima linha são habilitados.</p>
   <p>3. No 2º e no 3º campo de animais, é verificado se o animal da vez já foi escolhido anteriormente.</p>
-  <p>4. O botão de <b>Sortear Milhares</b> só é habilitado depois que o usuário clicou no último botão de <b>"Confirmar"</b>, assim temos a certeza de que todos os campos estão válidos e preenchidos.</p>
+  <p>4. O botão de <b>"Sortear Milhares"</b> só é habilitado depois que o usuário clicou no último botão de <b>"Confirmar"</b>, assim temos a certeza de que todos os campos estão válidos e preenchidos.</p>
   <p>5. Para cada milhar, é verificado se nos últimos 2 números existe uma dezena de algum dos 3 grupos escolhidos.</p>
   <p>6. Mensagens personalizadas caso você acerte os 3 grupos (igual o exemplo do gif), quando acerta 2 grupos ele te diz qual faltou acertar e quando acerta apenas 1 ele mostra qual você acertou.</p>
   <p>7. Dependendo do resultado, as milhares são pintadas de verde ou de vermelho.</p>
@@ -172,13 +160,12 @@
 <div>
   <h6>Dezenas / Centenas / Milhares </h6>
   <p>
-    Tive que fazer um array armazenando cada número válido, e não consegui gerar esses números com um for ou com a biblioteca random porque muitos números começam com 0 na frente, e esse tipo de número no python dá erro, exceto que ele seja uma string. Então escrevi todos os números com ajuda da ferramenta barra de busca, mas senti muita falta de uma biblioteca específica pra isso. 
+    Tive que fazer um array armazenando cada número válido, e não consegui gerar esses números com um <b>for</b> ou com a biblioteca <b>random</b> porque muitos números começam com 0 na frente, e esse tipo de número no python dá erro, exceto que ele seja uma string. Então escrevi todos os números com ajuda da ferramenta barra de busca, mas senti muita falta de uma biblioteca específica pra isso. 
   </p>
   
   <h6>Tamanho dos elementos</h6>
   <p>
-    Deixei o máximo possível simétrico, mas seria melhor se eu tivesse conseguido colocar medidas do tipo pixel/px. O parâmetro <b>"size"</b> 
-fica diferente dependendo dos elementos, mesmo que dentro dele seja o mesmo número para ambos. 
+    Deixei o máximo possível simétrico, mas seria melhor se eu tivesse conseguido colocar medidas do tipo pixel/px para ser mais preciso, já que o parâmetro <b>"size"</b> fica diferente dependendo dos elementos, mesmo que dentro dele seja o mesmo número para ambos. 
   </p>
   
   <h6>2 Ou mais Output's</h6>
@@ -191,10 +178,10 @@ fica diferente dependendo dos elementos, mesmo que dentro dele seja o mesmo núm
   
   <h6>Textos</h6>
   <p>
-    Cada texto eu tive que formatar manualmente usando o <b>"\n"</b> para quebrar linhas, dentro do <b>"Output"</b> por exemplo, ele não respeita o tamanho de elemento e vai expandindo lateralmente a cada nova palavra inserida. Eu não consegui usar a função de Autosize que aparecia como sugestão, então por isso que foi necessário usar muitas quebras de linhas.
+    Cada texto eu tive que formatar manualmente usando o <b>"\n"</b> para quebrar linhas, dentro do <b>"Output"</b> por exemplo, ele não respeita o tamanho de elemento e vai expandindo lateralmente a cada nova palavra inserida. Eu não consegui usar a função de <b>"Autosize"</b> que aparecia como sugestão, então por isso que foi necessário usar muitas quebras de linhas.
   </p>
   <p>
-    Não só na formatação mas a qualquer momento que eu precisasse exibir um texto de acordo com algum dado do meu programa, eu já sabia que teria alguma complicação. Essa parte é bem confusa, mas as você tem que variar entre <b>window['elemento'], window['elemento'].get_text(), window['elemento'].DisplayText</b> ou printar o <b>"value"</b> de algum elemento e testar qual dessas opções que dá certo.
+    Não só na formatação mas a qualquer momento que eu precisasse exibir um texto de acordo com algum dado do meu programa, eu já sabia que teria alguma complicação. Essa parte é bem confusa, tive que variar entre <b>window['elemento'], window['elemento'].get_text(), window['elemento'].DisplayText</b> ou printar o <b>"value"</b> de algum elemento e testar qual dessas opções que dá certo.
   </p>
   
 </div>
@@ -211,10 +198,10 @@ fica diferente dependendo dos elementos, mesmo que dentro dele seja o mesmo núm
 
 ### Experiência do projeto
 <p>
-  Eu estava terminando de fazer esse código de forma normal, sem interface. Apresentei para algumas pessoas e inclusive minha irmã disse que seria mais legal se tivesse algum "aplicativo" para alguem jogar, e até então eu nem sabia que era possível criar interfaces com python. Mas quando comecei a aprender o <b>PySimpleGUI</b> em um cruso, eu deicidi passar todo o código para uma interface. 
+  Eu estava terminando de fazer esse código de forma normal, sem interface. Apresentei para algumas pessoas e inclusive minha irmã disse que seria mais legal se tivesse algum "aplicativo" para jogar ao invés de ficar respondendo tudo no terminal, e até então eu nem sabia que era possível criar interfaces com python. Mas quando comecei a aprender o <b>PySimpleGUI</b> em um curso, eu deicidi passar todo o código para uma interface. 
 </p>
 <p>
-  O conhecimento do curso foi muito raso, diria que ensinou uns 40% do que eu apliquei no código. Apesar de realemnte ser simples de mexer na biblioteca, o resto foi feito com muitas tentativas e erros, mas a cada acerto eu via a minha ideia tomando forma e se tornando de fato um programa.
+  O conhecimento do curso foi muito raso, diria que ensinou uns 40% do que eu apliquei no código. Apesar de realmente ser simples de mexer na biblioteca, o resto foi feito com muitas tentativas e erros, mas à cada acerto eu via a minha ideia tomando forma e se tornando de fato um programa.
 </p>
 <p>
   Demorou mais do que eu esperava pelo fato de eu ter mexido muito na minha rotina esses tempos, mas foi muito legal tirar uma idea da teoria e aplicar na prática somente com os meus conhecimentos, para meu primeiro projeto eu fiquei muito satisfeito.
