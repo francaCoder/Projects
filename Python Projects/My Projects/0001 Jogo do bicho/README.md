@@ -168,17 +168,63 @@
 </div>
 <hr>
 
-### Dificuldades
-...
+### Principais Dificuldades
+<div>
+  <h6>Dezenas / Centenas / Milhares </h6>
+  <p>
+    Tive que fazer um array armazenando cada número válido, e não consegui gerar esses números com um for ou com a biblioteca random porque muitos números começam com 0 na frente, e esse tipo de número no python dá erro, exceto que ele seja uma string. Então escrevi todos os números com ajuda da ferramenta barra de busca, mas senti muita falta de uma biblioteca específica pra isso. 
+  </p>
+  
+  <h6>Tamanho dos elementos</h6>
+  <p>
+    Deixei o máximo possível simétrico, mas seria melhor se eu tivesse conseguido colocar medidas do tipo pixel/px. O parâmetro <b>"size"</b> 
+fica diferente dependendo dos elementos, mesmo que dentro dele seja o mesmo número para ambos. 
+  </p>
+  
+  <h6>2 Ou mais Output's</h6>
+  <p>Eu tentei algumas vezes colocar mais de um <b>Output</b> na mesma janela, só que eu não consegui direcionar certos textos para um e outros textos para o outro.</p>
+  
+  <h6>Tratamento do campo de aposta</h6>
+  <p>
+    Passei bastante tempo fazendo tratamentos nesse campo, por conta da troca de vírgulas para ponto, verificar a quantidade e a posição, não aceitar símbolos e estipular um valor mínimo para a aposta, no final nem era tão complicado mas exigiu tempo.
+  </p>
+  
+  <h6>Textos</h6>
+  <p>
+    Cada texto eu tive que formatar manualmente usando o <b>"\n"</b> para quebrar linhas, dentro do <b>"Output"</b> por exemplo, ele não respeita o tamanho de elemento e vai expandindo lateralmente a cada nova palavra inserida. Eu não consegui usar a função de Autosize que aparecia como sugestão, então por isso que foi necessário usar muitas quebras de linhas.
+  </p>
+  <p>
+    Não só na formatação mas a qualquer momento que eu precisasse exibir um texto de acordo com algum dado do meu programa, eu já sabia que teria alguma complicação. Essa parte é bem confusa, mas as você tem que variar entre <b>window['elemento'], window['elemento'].get_text(), window['elemento'].DisplayText</b> ou printar o <b>"value"</b> de algum elemento e testar qual dessas opções que dá certo.
+  </p>
+  
+</div>
+<hr>
 
 ### O que falta ser feito
-...
+<h6>Os tópicos que tiverem ❌ na frente faltam ser feitos e ✅ já foram concluídos</h6>
+<ul>
+  <li>❌ Aplicar o Swicth para diminuir as condições</li>
+  <li>❌ Usar Classes</li>
+  <li>❌ Separar o código em módulos</li>
+</ul>
+<hr>
 
 ### Experiência do projeto
-...
+<p>
+  Eu estava terminando de fazer esse código de forma normal, sem interface. Apresentei para algumas pessoas e inclusive minha irmã disse que seria mais legal se tivesse algum "aplicativo" para alguem jogar, e até então eu nem sabia que era possível criar interfaces com python. Mas quando comecei a aprender o <b>PySimpleGUI</b> em um cruso, eu deicidi passar todo o código para uma interface. 
+</p>
+<p>
+  O conhecimento do curso foi muito raso, diria que ensinou uns 40% do que eu apliquei no código. Apesar de realemnte ser simples de mexer na biblioteca, o resto foi feito com muitas tentativas e erros, mas a cada acerto eu via a minha ideia tomando forma e se tornando de fato um programa.
+</p>
+<p>
+  Demorou mais do que eu esperava pelo fato de eu ter mexido muito na minha rotina esses tempos, mas foi muito legal tirar uma idea da teoria e aplicar na prática somente com os meus conhecimentos, para meu primeiro projeto eu fiquei muito satisfeito.
+</p>
+<hr>
 
-### Considerações
-...
+### Considerações Finais
+<h6>Thalysson e Gustavo - Os primeiros a verem e a opinar sobre o projeto.</h6>
+<h6>Link do Vídeo que aprendi as regras do jogo:</h6> https://www.youtube.com/watch?v=B65sptnOru8
+<hr>
 
-### Autor
-...
+<h3 align="center">Autor do Projeto</h3>
+<p align="center">© 2022 França, The GOAT.</p>
