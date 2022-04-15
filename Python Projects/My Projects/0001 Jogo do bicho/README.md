@@ -150,35 +150,20 @@
   
 <hr>
 
-<div>
-  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/janela2.gif" align="left" height="350px">
-  
-  <p align="justify">
-    <p><h6>Modo: Aposta no Grupo</h6></p>
-    <p align="justify">
-      O grupo inicialmente começa no avestruz e podemos escolher qualquer um dos 25 grupos disponíveis. Somos obrigados a confirmar nossa escolha para sortear as milhares, mas também podemos cancelar e escolher outro grupo. A premiação vem originalmente marcada na primeira opção, que nos dá a opção de mudar e mostra a possível remuneração de cada uma.
-    </p>
-    <p align="justify">
-      Para cada tipo de aposta o <b>Output</b> de sortear milhares exige uma lódgica diferente, para esse, ele tem que verificar em todas as milhares se há alguma dezena no grupo escolhido nos últimos 2 números, conforme é dito nas regras.
-    </p>
-    <p align="justify">
-      <h6>Resultados</h6>
-        → Apostou na 1º milhar e Acertou na 1º milhar:
-        <p align="justify" font-size="3px">O Programa pinta a 1º milhar, mostra qual das 4 dezenas foi a que você acertou e mostra seu prêmio.</p>
-        → Apostou na 1º milhar e Acertou em outra milhar:
-        <p align="justify">O Programa somente pinta a e informa qual foi a milhar que você teria acertado se tivesse apostado em todas.</p>
-         → Apostou nas 6 milhares e Acertou na 1º milhar:
-        <p align="justify">O Programa pinta a primeira milhar e exibe uma mensagem dinâmica, afinal nesse caso era melhor que você tivesse apostado só na primeira, mas obviamente não teria como descobrir e você acabou ganhando o prêmio da segunda opção e não o da primeira.</p>
-        → Apostou nas 6 milhares e Acertou entre a 2º e a 6º milhar:
-        <p align="justify">O Programa mostra a dezena que você acertou e seu prêmio e pinta a milhar acertada.</p>
-        → Apostou na 1º e errou:
-        <p align="justify">Se não tiver acertado em nenhuma outra milhar, ele simplesmente exibe uma mensagem dizendo que não acertou em nenhuma milhar</p>
-        → Apostou nas 6 milhares e errou:
-        <p align="justify">Mostra uma mensagem que você errou em todas, não ganhou nenhum prêmio e todas as milhares são pintadas de vermelho.</p>
-    </p>
+  <p>
+  Vou detalhar somente uma janela da 3º etapa, afinal todas são parecidas e as próprias regras já são mostradas e explicadas no próprio programa. Compilem o código e joguem por conta própria para conhecer melhor.
   </p>
+
+<div>
+  <h6>Modo: Terno de Grupo</h6>
+  <img src="https://github.com/franssa01/Projects/blob/main/Python%20Projects/My%20Projects/0001%20Jogo%20do%20bicho/%26%20-%20Image/janela2.gif" align="left" height="350px">
+  <p>→ Lógica dos Elementos</p>
+  <p>1. Grupos são considerados válidos quando, com <b>.strip() e .upper()</b>, coincidem com algum grupo do array oficial.</p>
+  <p>2. A cada botão de confirmar pressionado, o <b>"Cancelar"</b> da mesma linha e o campo de animais da próxima linha são habilitados.</p>
+  <p>3. No 2º e no 3º campo de animais, é verificado se o animal da vez já foi escolhido anteriormente.</p>
+  <p>4. O botão de <b>Sortear Milhares</b> só é habilitado depois que o usuário clicou no último botão de <b>"Confirmar"</b>, assim temos a certeza de que todos os campos estão válidos e preenchidos.</p>
+  <p>5. Para cada milhar, é verificado se nos últimos 2 números existe uma dezena de algum dos 3 grupos escolhidos.</p>
+  <p>6. Mensagens personalizadas caso você acerte os 3 grupos (igual o exemplo do gif), quando acerta 2 grupos ele te diz qual faltou acertar e quando acerta apenas 1 ele mostra qual você acertou.</p>
+  
+  
 </div>
-
-<hr>
-
-
