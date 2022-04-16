@@ -191,7 +191,7 @@
 <h6>Os tópicos que tiverem ❌ na frente faltam ser feitos e ✅ já foram concluídos</h6>
 <ul>
   <li>❌ Aplicar o Swicth para diminuir a quantidade de IF's</li>
-  <li>❌ Usar Classes</li>
+  <li>❌ Usar Classes no código</li>
   <li>❌ Separar o código em módulos</li>
 </ul>
 <hr>
