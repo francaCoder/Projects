@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eedad9;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-family: "Courgette";
+}
+
+header {
+    background: url(images/header.jpg) no-repeat bottom;
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    filter: brightness(0.6) blur(1px);
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+header h1 {
+    color: #B25571;
+    font: 80px "Boogaloo";
+    filter: blur(0px);
+}
+
+main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+main section {
+    padding: 0px 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text {
+    background-color: #B25571;
+    border-radius: 15px;
+    font-size: 15px;
+    text-indent: 10px;
+    box-shadow: 2px 2px 5px black;
+    padding: 20px;
+}
+
+footer {
+    background-color: gray;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer img {
+    width: 30px;
+}
